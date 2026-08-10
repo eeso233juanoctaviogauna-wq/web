@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="icon" href="imagenes/Logo.png" type="image/x-icon">   
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E.E.S.O. Nº 233 - Juan Octavio Gauna</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo" onclick="showPage('inicio')">
+      <div class="nav-logo-circle">
+        <img src="imagenes/Logo.png" alt="Escuela">
+      </div>
+      <div class="nav-title">
+        E.E.S.O. Nº 233<br>
+        <span style="font-size:11px; font-weight:400; opacity:0.8;">Juan Octavio Gauna</span>
+      </div>
+    </div>
+    <div class="nav-links">
+      <button onclick="showPage('inicio')"      id="nav-inicio" class="active">Inicio</button>
+      <button onclick="showPage('institucion')" id="nav-institucion">Institución</button>
+      <button onclick="showPage('galeria')"     id="nav-galeria">Galería</button>
+      <button onclick="showPage('contacto')"    id="nav-contacto">Contacto</button>
+      <button onclick="showPage('previas')" id="nav-previas">Materias Previas</button>
+    </div>
+  </nav>
+
+  <!-- PÁGINA INICIO -->
+  <div id="page-inicio" class="page active">
+    <div class="hero">
+      <div class="hero-slider">
+        <img src="imagenes/Captura de pantalla 2026-06-10 143556.png" class="slide active">
+        <img src="imagenes/IMG_6116.jpeg" class="slide">
+        <img src="imagenes/IMG_6106.jpeg" class="slide">
+        <img src="imagenes/IMG_6112.jpeg" class="slide">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-inner">
+        
+        <h1>E.E.S.O. Nº233</h1>
+        <h2>"Juan Octavio Gauna"</h2>
+        <p class="hero-welcome">
+         La Escuela de Educación Secundaria Orientada N° 233 "Prof. Juan Octavio Gauna" es
+          una institución educativa comprometida con la formación integral de los jóvenes,
+          promoviendo una educación de calidad basada en valores, inclusión, participación y
+          compromiso social. Nuestra escuela constituye un espacio de aprendizaje, crecimiento y convivencia donde
+          los estudiantes desarrollan conocimientos, habilidades y actitudes que les permiten
+          construir su proyecto de vida, continuar estudios superiores e integrarse
+          responsablemente a la sociedad, inculcando valores como respeto, responsabilidad, solidaridad, honestidad, empatía, trabajo colaborativo, etc.
+
+        </p>
+      </div>
+      <button class="hero-prev">&#10094;</button>
+      <button class="hero-next">&#10095;</button>
+      <div class="hero-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+
+
+    <section class="mapa">
+      <div class="container">
+        <div class="section-title">
+          <h2>Ubicación</h2>
+          <div class="line"></div>
+        </div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3459.113268266171!2d-60.2859368244521!3d-29.889836725001803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x944bbfc29b848b15%3A0x8a60df52a49515f4!2sEESO%20N%C2%B0%20233!5e0!3m2!1ses!2sar!4v1781089609831!5m2!1ses!2sar"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+
+    <section class="noticias">
+      <div class="section-title">
+        <h2>Últimas noticias</h2>
+        <div class="line"></div>
+      </div>
+      <div class="noticias-grid">
+        <div class="noticia-card reveal-left">
+          <div class="noticia-info">
+            <span class="fecha">Julio de 2026</span>
+            <h3>Exitosa "Varieté 2025" en la E.E.S.O. Nº 233</h3>
+            <p>La comunidad educativa cerró el primer semestre con una nueva edición de la Varieté Institucional...</p>
+          </div>
+        </div>
+        <div class="noticia-card reveal-left">
+          <div class="noticia-info">
+            <span class="fecha">Junio de 2026</span>
+            <h3>Participación en la Fiesta del Pueblo</h3>
+            <p>Estudiantes y docentes participaron de las actividades culturales en Calchaquí...</p>
+          </div>
+        </div>
+        <div class="noticia-card reveal-left">
+          <div class="noticia-info">
+            <span class="fecha">15 de Junio de 2026</span>
+            <h3>Acto por el Día de la Bandera</h3>
+            <p>La comunidad educativa participó del acto conmemorativo...</p>
+          </div>
+        </div>
+        <div class="noticia-card reveal-left">
+          <div class="noticia-info">
+            <span class="fecha">28 de Mayo de 2026</span>
+            <h3>Centro de Estudiantes</h3>
+            <p>Se llevó adelante una reunión para presentar nuevas propuestas...</p>
+          </div>
+        </div>
+        <div class="noticia-card reveal-left">
+          <div class="noticia-info">
+            <span class="fecha">5 de Abril de 2026</span>
+            <h3>Mejoras en la institución</h3>
+            <p>Se realizaron trabajos de mantenimiento y mejoras edilicias...</p>
+          </div>
+        </div>
+        <div class="noticia-card reveal-left">
+          <div class="noticia-info">
+            <span class="fecha">Marzo de 2026</span>
+            <h3>La promoción 2026 llevó Malvinas en su uniforme</h3>
+            <p>Los estudiantes de quinto año incorporaron la silueta de las Islas Malvinas...</p>
+          </div>
+        </div>
+        <div class="noticia-card reveal-left">
+          <div class="noticia-info">
+            <span class="fecha">Marzo de 2025</span>
+            <h3>Entrega del Fondo de Asistencia Educativa</h3>
+            <p>La escuela fue beneficiada con recursos destinados a mejoras edilicias...</p>
+          </div>
+        </div>
+        <div class="noticia-card reveal-left">
+          <div class="noticia-info">
+            <span class="fecha">Abril de 2025</span>
+            <h3>Presentación del cortometraje "La Leyenda de la Laguna El Cristal"</h3>
+            <p>Se presentó el cortometraje realizado por estudiantes...</p>
+          </div>
+        </div>
+        <div class="noticia-card reveal-left">
+          <div class="noticia-info">
+            <span class="fecha">Noviembre de 2024</span>
+            <h3>Campamento educativo en Las Gamas</h3>
+            <p>Los alumnos de quinto año participaron de un campamento educativo...</p>
+          </div>
+        </div>
+        <div class="noticia-card reveal-left">
+          <div class="noticia-info">
+            <span class="fecha">2024</span>
+            <h3>Jornada institucional de convivencia</h3>
+            <p>Se realizaron actividades de integración entre estudiantes...</p>
+          </div>
+        </div>
+        <div class="noticia-card reveal-left">
+          <div class="noticia-info">
+            <span class="fecha">2024</span>
+            <h3>Encuentros deportivos escolares</h3>
+            <p>Estudiantes representaron a la institución en distintas jornadas...</p>
+          </div>
+        </div>
+        <div class="noticia-card reveal-left">
+          <div class="noticia-info">
+            <span class="fecha">20 de octubre de 2023</span>
+            <h3>Reencuentro de promociones por el 64.º aniversario</h3>
+            <p>Exalumnos de distintas promociones participaron de un emotivo reencuentro...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Esta página fue hecha por estudiantes de la E.E.T.P N° 687, como un proyecto escolar.</p>
+    </footer>
+  </div>
+
+  <!-- PÁGINA INSTITUCIÓN -->
+     <div id="page-institucion" class="page">
+    <div class="page-content">
+
+      <div class="page-header">
+        <h2>La institución</h2>
+        <p>Educación secundaria de calidad en Calchquí, Santa Fe</p>
+        <div class="divider"></div>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-card"> 
+          <span class="ico">📜</span>
+          <h3>Nuestra Historia</h3>
+          <p>
+            La EESO N.o 233 forma parte de la historia educativa de la ciudad de Calchaquí y de
+            toda la región. Desde su creación ha acompañado la formación de numerosas
+            generaciones de estudiantes, convirtiéndose en una institución de referencia por su
+            compromiso con la educación pública. A lo largo de los años, la escuela ha sabido adaptarse a los cambios sociales, culturales y
+            tecnológicos, manteniendo siempre como eje central la formación humana y académica
+            de sus estudiantes. Actualmente continúa fortaleciendo su propuesta educativa mediante proyectos
+            innovadores, actividades culturales, deportivas y comunitarias que enriquecen la
+            experiencia escolar.
+          </p>
+        </div>
+        <div class="info-card">
+          <span class="ico">📚</span>
+          <h3>Comunidad educativa</h3>
+          <p>
+            Docentes, estudiantes y familias construimos una comunidad comprometida con el aprendizaje y con la vida escolar. En la EESO N.º 233, la educación se concibe como un proyecto compartido, en el que cada integrante aporta desde su rol para fortalecer los vínculos entre la escuela y la comunidad. Así, trabajamos para formar jóvenes responsables, críticos y solidarios.
+          </p>
+        </div>
+        <div class="info-card">
+          <span class="ico">🤝</span>
+          <h3>Centro Estudiantil</h3>
+          <p>
+            El Centro de Estudiantes constituye un espacio fundamental para la participación democrática de los jóvenes.
+            A través de este organismo, los alumnos pueden:
+          </p>
+
+          <ul>
+            <li>Representar los intereses estudiantiles.</li>
+            <li>Presentar propuestas e iniciativas.</li>
+            <li>Organizar actividades culturales y solidarias.</li>
+            <li>Participar en proyectos institucionales.</li>
+            <li>Fortalecer la ciudadanía democrática. </li>
+          </ul>
+
+        </div>
+      </div>  
+      
+      <p class="sub-title">Orientaciones</p>
+      <div class="orient-grid">
+        <div class="orient-card">
+          <span class="ico">&#128200;</span>
+          <h3>Orientación en Economía y Administración</h3>
+          <p>
+            Formación orientada a la gestión económica, contable y administrativa, preparando para el mundo laboral y universitario.
+            Esta orientación brinda herramientas para comprender el funcionamiento de las
+            organizaciones, la economía y los procesos administrativos.
+            Los estudiantes desarrollan conocimientos vinculados a:
+            <ul>
+            <li>Administración</li>
+            <li>Economía</li>
+            <li>Gestión Organizacional</li>
+            <li>Emprendedurismo</li>
+            <li>Marketing</li>
+            <li>Proyectos Productivos</li>
+            </ul>
+          </p>
+
+        </div>
+        <div class="orient-card">
+          <span class="ico">&#127912;</span>
+          <h3>Orientación en Artes &mdash; Artes Visuales</h3>
+          <p>
+            Desarrollo de la expresión artística y visual, con herramientas teóricas y prácticas para la creación y el diseño.
+            Promueve la creatividad artística mediante el estudio y producción dediversas manifestaciones visuales.
+            Los estudiantes trabajan en:
+            <ul>
+              <li>Dibujo</li>
+              <li>Pintura</li>
+              <li>Diseño</li>
+              <li>Producción Visual</li>
+              <li>Historia del Arte</li>
+              <li>Lenguajes Artisticos Contemporaneos</li>
+            </ul>
+          </p>
+
+        </div>
+      </div>
+
+      <section class="contador">
+
+    <div class="contador-item reveal">
+
+        <h2 data-target="600">0</h2>
+
+        <p>Estudiantes</p>
+
+    </div>
+
+    <div class="contador-item reveal">
+
+        <h2 data-target="70">0</h2>
+
+        <p>Docentes</p>
+
+    </div>
+
+    <div class="contador-item reveal">
+
+        <h2 data-target="50">0</h2>
+
+        <p>Años de Historia</p>
+
+    </div>
+
+    <div class="contador-item reveal">
+
+        <h2 data-target="2">0</h2>
+
+        <p>Orientaciones</p>
+
+    </div>
+
+</section>
+
+    </div>
+    <footer>
+      <p>&copy; 2025 <span>E.E.S.O. Nº233 &ldquo;Juan Octavio Gauna&rdquo;</span> &middot; Calchquí, Santa Fe</p>
+    </footer>
+  </div>
+
+
+  <!-- PÁGINA GALERÍA -->
+  <div id="page-galeria" class="page">
+    <div class="page-content">
+      <div class="page-header">
+        <h2>Galería</h2>
+        <p>Fotos de la institución y sus actividades</p>
+        <div class="divider"></div>
+      </div>
+
+      <div class="galeria-filtros">
+        <button class="filtro-btn active" data-filter="all">Todas</button>
+        <button class="filtro-btn" data-filter="infraestructura">Infraestructura</button>
+        <button class="filtro-btn" data-filter="centro">Centro de Estudiantes</button>
+        <button class="filtro-btn" data-filter="actos">Actos Escolares</button>
+        <button class="filtro-btn" data-filter="pasillos">Pasillos</button>
+      </div>
+
+      <div class="galeria-grid">
+        <div class="galeria-item infraestructura"><img src="imagenes/1.jpg" alt="Frente de la escuela" class="gallery-img"></div>
+        <div class="galeria-item infraestructura"><img src="imagenes/2.jpg" alt="Instalaciones" class="gallery-img"></div>
+        <div class="galeria-item infraestructura"><img src="imagenes/IMG_6107.jpeg" alt="Escuela" class="gallery-img"></div>
+        <div class="galeria-item infraestructura"><img src="imagenes/IMG_6109.jpeg" alt="Escuela" class="gallery-img"></div>
+        <div class="galeria-item infraestructura"><img src="imagenes/IMG_6111.jpeg" alt="Escuela" class="gallery-img"></div>
+        <div class="galeria-item infraestructura"><img src="imagenes/IMG_6112.jpeg" alt="Centro de estudiantes" class="gallery-img"></div>
+        <div class="galeria-item infraestructura"><img src="imagenes/IMG_6113.jpeg" alt="Escuela" class="gallery-img"></div>
+        <div class="galeria-item infraestructura"><img src="imagenes/IMG_6114.jpeg" alt="Escuela" class="gallery-img"></div>
+        <div class="galeria-item actos"><img src="imagenes/BANDERA.jpeg" alt="Acto escolar" class="gallery-img"></div>
+        <div class="galeria-item pasillos"><img src="imagenes/IMG_6108.jpeg" alt="Escuela" class="gallery-img"></div>
+        <div class="galeria-item pasillos"><img src="imagenes/IMG_6116.jpeg" alt="Escuela" class="gallery-img"></div>
+        <div class="galeria-item pasillos"><img src="imagenes/IMG_6118.jpeg" alt="Escuela" class="gallery-img"></div>
+        <div class="galeria-item pasillos"><img src="imagenes/IMG_6119.jpeg" alt="pasillo 7" class="gallery-img"></div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Esta página fue hecha por estudiantes de la E.E.T.P N° 687, como un proyecto escolar.</p>
+    </footer>
+  </div>
+
+  <!-- PÁGINA CONTACTO -->
+  <div id="page-contacto" class="page">
+    <div class="page-content">
+      <div class="page-header">
+        <h2>Contacto y ubicación</h2>
+        <div class="divider"></div>
+      </div>
+
+      <div class="contacto-grid">
+        <div class="contacto-card">
+          <div class="contacto-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Dirección</h4>
+            <p>25 de Mayo S/N, Centro (S3050)<br>Calchaquí, Departamento de San Justo, Provincia de Santa Fe</p>
+          </div>
+        </div>
+
+        <div class="contacto-card">
+          <div class="contacto-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.13 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.04 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 17l.92-.08Z"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Teléfono</h4>
+            <p>03483 - 470386</p>
+          </div>
+        </div>
+
+        <div class="contacto-card">
+          <div class="contacto-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Correo electrónico</h4>
+            <a href="mailto:sec233_calchaqui@santafe.edu.ar">sec233_calchaqui@santafe.edu.ar</a>
+          </div>
+        </div>
+
+        <div class="contacto-card">
+          <div class="contacto-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <div>
+            <h4>Horario</h4>
+            <p>Lunes a viernes<br>7:30 a 19:00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Esta página fue hecha por estudiantes de la E.E.T.P N° 687, como un proyecto escolar.</p>
+    </footer>
+  </div>
+  
+  <!-- PÁGINA MATERIAS PREVIAS -->
+  <div id="page-previas" class="page">
+    <div class="page-content">
+      <div class="page-header previas-header">
+        <h2>Inscripción a Materias Previas</h2>
+        <p>Completá los datos requeridos.</p>
+        <div class="divider"></div>
+      </div>
+
+      <!-- NOTIFICACIÓN TIPO ALERT DINÁMICA -->
+      <div id="notificacion-inscripcion" class="notificacion-alerta" style="display: none;">
+        <div class="notificacion-icono">🔔</div>
+        <div class="notificacion-contenido">
+          <h4>¡Nueva inscripción a Mesa de Examen recibida!</h4>
+          <p id="notificacion-texto"></p>
+        </div>
+        <button class="notificacion-cerrar" onclick="cerrarNotificacion()">&times;</button>
+      </div>
+
+      <!-- Mensajes de estado de Formspree -->
+      <div data-fs-success class="form-mensaje success" style="display: none;">
+        <span class="ico-msg">✅</span>
+        <div>
+          <strong>¡Inscripción registrada con éxito!</strong>
+          <p>Tu solicitud ha sido guardada correctamente y enviada a Secretaría.</p>
+        </div>
+      </div>
+      <div data-fs-error class="form-mensaje error" style="display: none;">
+        <span class="ico-msg">⚠️</span>
+        <div>
+          <strong>Ocurrió un error</strong>
+          <p>No se pudo enviar el formulario. Por favor, verificá la conexión e intentalo nuevamente.</p>
+        </div>
+      </div>
+
+      <form id="form-previas" class="form-previas">
+        <div class="form-group">
+          <label for="dni">DNI del Estudiante:</label>
+          <input type="text" id="dni" name="dni" required placeholder="Ej: 45123456" data-fs-field />
+          <span data-fs-error="dni"></span>
+        </div>
+
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label for="apellido">Apellido/s:</label>
+            <input type="text" id="apellido" name="apellido" required placeholder="Pérez" data-fs-field />
+            <span data-fs-error="apellido"></span>
+          </div>
+          <div class="form-group">
+            <label for="nombre">Nombre/s:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Juan" data-fs-field />
+            <span data-fs-error="nombre"></span>
+          </div>
+        </div>
+
+       
+
+        <div class="form-group">
+          <label for="materia">Materia a rendir:</label>
+          <input type="text" id="materia" name="materia" required placeholder="Ej: Matemáticas (3er Año)" data-fs-field />
+          <span data-fs-error="materia"></span>
+        </div>
+
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label for="condicion">Condición:</label>
+            <select id="condicion" name="condicion" required data-fs-field>
+              <option value="" disabled selected>Seleccioná una opción</option>
+              <option value="Regular">Regular</option>
+              <option value="Libre">Libre</option>
+              <option value="Equivalencia">Equivalencia</option>
+            </select>
+            <span data-fs-error="condicion"></span>
+          </div>
+          <div class="form-group">
+            <label for="telefono">Teléfono de contacto / Tutor:</label>
+            <input type="tel" id="telefono" name="telefono" required placeholder="Ej: 3483400000" data-fs-field />
+            <span data-fs-error="telefono"></span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required placeholder="ejemplo@email.com" data-fs-field />
+          <span data-fs-error="email"></span>
+        </div>
+
+        <button type="submit" class="btn-submit" data-fs-submit-btn>Enviar Inscripción</button>
+      </form>
+    </div>
+    <footer>
+      <p>Esta página fue hecha por estudiantes de la E.E.T.P N° 687, como un proyecto escolar.</p>
+    </footer>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <span class="prev">&#10094;</span>
+    <img id="lightbox-img">
+    <span class="next">&#10095;</span>
+  </div>
+
+  <button id="btnTop">↑</button>
+
+  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+  <script src="script.js"></script>
+  <script>
+    window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+    formspree('initForm', { formElement: '#form-previas', formId: 'xgogqzlq' });
+  </script>
+</body>
+</html>
